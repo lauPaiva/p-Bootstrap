@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+/* Estilos generales */
+
+
+/* background-color del menú*/
+.back-color{
+    background-color: #168D7F;
+}
+body{
+    background-image: url(../img/fondo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    color: white;
+    position: relative;
+}
+main{
+    margin-bottom: 10rem;
+}
+h1{
+    text-align: center;
+    font-size: 10rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+img{
+    width: 100%;
+    width: 35rem;
+    border-radius: 1rem;
+    border: 0.2rem solid white;
+}
+.main{
+    font-size: 1.7rem;
+}
+.menu{
+    font-size: 1.8rem;
+}
+.parrafo{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    box-shadow: white -0.3rem 0.3rem 0.2rem;
+    padding: 2rem;
+}
+.footer{
+    text-align: center;
+    background-color: #000000;
+    font-size: 1.5rem;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+/* Estilos de seccion 2 */
+.main2{
+    display: grid;
+    grid-template-areas: "img1 img2""parrafo1 parrafo2";
+    text-align: center;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.normal{
+    width: 100%;
+    border: none;
+    border-radius: none;
+}
+.img1{
+    grid-area: img1;
+    margin: 1rem;
+}
+.parrafo1{
+    display: flex;
+    align-items: center;
+    grid-area: parrafo1;
+    background-color: #168D7F;
+    height: 15rem;
+    padding: 1rem 5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 0.2rem solid white;
+}
+.img2{
+    grid-area: img2;
+    margin: 1rem;
+    
+}
+.parrafo2{
+    display: flex;
+    align-items: center;
+    grid-area: parrafo1;
+    background-color:#E6779D;
+    height: 15rem;
+    padding: 1rem 5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 0.2rem solid white;
+}
+
+
+/* Estilos de seccion 3 */
+.main3{
+    display: grid;
+    grid-template-areas: "img-1 img2 img-3""parrafo-1 parrafo-2 parrafo-3";
+    text-align: center;
+}
+.img-1{
+    grid-area: img-1;
+}
+.img-2{
+    grid-area: img-2;
+}
+.img-3{
+    grid-area: img-3;
+}
+.parrafo-1{
+    grid-area: parrafo-1;
+    display: flex;
+    align-items: center;
+    background-color: #168D7F;
+    height: 15rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 0.2rem solid white;
+}
+.parrafo-2{
+    grid-area: parrafo-2;
+    display: flex;
+    align-items: center;
+    background-color: #E6779D;
+    height: 15rem;
+    margin: 1rem;
+    padding: 1rem;  
+    border-radius: 1rem; 
+    border: 0.2rem solid white;
+}
+
+.parrafo-3{
+    grid-area: parrafo-3;
+    display: flex;
+    align-items: center;
+    background-color: #168D7F;
+    height: 15rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 0.2rem solid white;
+}
+.main3 img{
+    width: 25rem;
+    margin: 1.5rem;
+}
+
+.div-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cont-grid{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: "main aside"
+                         "main aside";
+}
+.main4{
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aside{
+    grid-area: aside;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: #000000 -0.5rem 0.5rem 1.5rem;
+    margin-bottom: 2rem;
+    padding: 3rem;
+      
+}
+.m1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.m2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main4 p{
+    padding: 2rem;
+    
+}
+.p1{
+    display: flex;
+    align-items: center;
+    background-color: #168D7F;
+    height: 20rem;
+    width: 50vw;
+    padding: 1rem;
+    margin: 2rem 0rem 12rem 0rem;
+    border-radius: 1rem;
+    border: 0.2rem solid white;
+}
+
+.p2{
+    display: flex;
+    align-items: center;
+    background-color: #E6779D;
+    height: 20rem;
+    width: 50vw;
+    padding: 1rem;
+    margin: 2rem 0rem 5rem 0rem;
+    border-radius: 1rem;
+    border: 0.2rem solid white;
+}
+
+
+.main5{
+    display: grid;
+    grid-template-areas: "ig form fb";
+    font-size: 2rem;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.main5 img{
+    width: 15rem;
+}
+.ig{
+    grid-area: ig;
+}
+.form{
+    grid-area: form;
+}
+.fb{
+    grid-area: fb;
+}
+.ig{
+    display: flex;
+    justify-content: center;
+    grid-area: ig;
+    border-radius: 1rem;
+}
+.ig img{
+    background-color: #E6779D;
+}
+.fb{
+    display: flex;
+    justify-content: center;
+    grid-area: fb;
+    border-radius: 1rem; 
+}
+.fb img{
+    background-color: #168d7f;
+}
+.submain{
+    grid-area: form;
+    display: flex;
+    justify-content: center;
+}
+.form__area{
+    background-color: #168d7fd2;
+    box-shadow: #000000 -0.5rem 0.5rem 1rem;
+    color: white;
+    padding: 2rem;
+    width: 50vw;
+    border-radius: 1rem;
+}
+.form__div{ 
+    background-color: #e6779ede;
+    padding: 1rem;
+    margin: 2.5rem;
+    box-shadow: #000000 -0.3rem 0.3rem 1rem;
+    border-radius: 0.5rem;
+}
+.form__title{
+    background-color: #00000065;
+    color:#ffffff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.form__div-1{
+    display: flex;
+    justify-content: center;
+}
+.form__input-1{
+    border: #000000 0.2rem solid;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.form__input-1:hover{
+    border: #E6779D 0.2rem solid;
+    background-color: #E9E9ED;
+    
+}
+.form__input{
+    padding: 0.5rem;
+    width: 100%;
+}
