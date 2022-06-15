@@ -26,6 +26,7 @@ body{
 }
 main{
     margin-bottom: 10rem;
+    height: 100vh;
 }
 h1{
     text-align: center;
@@ -38,6 +39,10 @@ img{
     border-radius: 1rem;
     border: 0.2rem solid white;
 }
+
+
+/* estilos index */
+
 .main{
     font-size: 1.7rem;
 }
@@ -50,6 +55,14 @@ img{
     align-items: center;
     box-shadow: white -0.3rem 0.3rem 0.2rem;
     padding: 2rem;
+    height: 70%;
+}
+/* carrusel */
+.carr{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
 }
 .footer{
     text-align: center;
@@ -60,7 +73,9 @@ img{
     padding: 0.5rem;
 }
 
+
 /* Estilos de seccion 2 */
+
 .main2{
     display: grid;
     grid-template-areas: "img1 img2""parrafo1 parrafo2";
@@ -115,6 +130,7 @@ img{
 
 
 /* Estilos de seccion 3 */
+
 .main3{
     display: grid;
     grid-template-areas: "img-1 img2 img-3""parrafo-1 parrafo-2 parrafo-3";
@@ -188,6 +204,8 @@ img{
 }
 
 
+/* estilos seccion 4 */
+
 .cont-grid{
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -250,6 +268,8 @@ img{
     border: 0.2rem solid white;
 }
 
+
+/* estiilos seccion 5 */
 
 .main5{
     display: grid;
@@ -334,3 +354,6 @@ img{
     padding: 0.5rem;
     width: 100%;
 }
+
+
+/* fin :3 */
